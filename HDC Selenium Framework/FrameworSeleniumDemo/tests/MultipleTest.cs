@@ -4,6 +4,7 @@ using System.Text;
 using FrameworSeleniumDemo.testCase;
 using FrameworSeleniumDemo.utils;
 using NUnit.Framework;
+using FrameworSeleniumDemo.bd;
 
 namespace FrameworSeleniumDemo.tests
 {

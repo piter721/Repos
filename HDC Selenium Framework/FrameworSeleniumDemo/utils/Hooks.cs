@@ -16,7 +16,7 @@ namespace FrameworSeleniumDemo.utils
         public void Setup()
         {
             //definir una nueva ruta para el proyecto
-            driver = new ChromeDriver(@"C:\\Users\\paperez\\source\\repos\\FrameworSeleniumDemo\\FrameworSeleniumDemo\\driverNavegadores");
+            driver = new ChromeDriver(@"C:\\Users\\paperez\\source\\repos\\HDC Selenium Framework\\FrameworSeleniumDemo\\driverNavegadores");
             driver.Navigate().GoToUrl("https://app-abacook-qa.azurewebsites.net/");
             driver.Manage().Window.Maximize();
         }
