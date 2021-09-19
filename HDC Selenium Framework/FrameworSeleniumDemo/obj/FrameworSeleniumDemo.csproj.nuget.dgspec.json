@@ -48,9 +48,17 @@
               "target": "Package",
               "version": "[1.5.0, )"
             },
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.5.0, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
+              "target": "Package",
+              "version": "[16.11.0, )"
             },
             "NUnit": {
               "target": "Package",

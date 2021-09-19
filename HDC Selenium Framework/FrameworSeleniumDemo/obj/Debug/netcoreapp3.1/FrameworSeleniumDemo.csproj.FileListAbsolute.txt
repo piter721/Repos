@@ -217,3 +217,5 @@ C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\bin\De
 C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\obj\Debug\netcoreapp3.1\FrameworSeleniumDemo.csproj.CopyComplete
 C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\obj\Debug\netcoreapp3.1\FrameworSeleniumDemo.genruntimeconfig.cache
+C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\bin\Debug\netcoreapp3.1\testhost.exe
+C:\Users\paperez\source\repos\HDC Selenium Framework\FrameworSeleniumDemo\bin\Debug\netcoreapp3.1\SeleniumExtras.WaitHelpers.dll

@@ -15,8 +15,8 @@ namespace FrameworSeleniumDemo.utils
         public void WaitForElement(IWebElement element, int waitTime)
         {
             var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(waitTime));
-            wait.Until(ExpectedConditions.ElementToBeClickable(element)); //There are several Expected conditions
-            Console.WriteLine("Objeto encontrado exitosamente");
+            wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(element));
+            Console.WriteLine("El elemento fue encontrado exitosamente");
         }
 
         public void hoverAndClick(IWebElement element, IWebElement elementToMakeClick) {
@@ -71,6 +71,7 @@ namespace FrameworSeleniumDemo.utils
             else {
                 Console.WriteLine("El elemento no esta seleccionado");
                 element.Click();
+                Console.WriteLine("Elemento seleccionado");
             }
         }
         public void DeseleccionarCheckbox(IWebElement element)
@@ -104,7 +105,15 @@ namespace FrameworSeleniumDemo.utils
             driver.SwitchTo().Window(driver.WindowHandles.First());
         }
 
-
-    
+        public void Passed(String mensaje)
+        {
+            Assert.Pass(mensaje);
+        }
+        public void Failed(String mensaje)
+        {
+            Assert.Fail(mensaje);
+        }
     }
+    
+    
 }
